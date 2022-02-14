@@ -1,0 +1,58 @@
+  .heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+    font-size:  26px; ;
+  }
+  .heading_div
+  {
+    float: none;
+    padding:12px;
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+
+  }
+ .result_para_tag span{
+   white-space: pre-line
+ }
+ canvas{
+   border: 3px solid black;
+   border-radius: 20px;
+   box-shadow: 5px 5px 5px paleturquoise;
+   margin-top: 150px;
+   
+
+ }
+ .copy_right_footer{
+   position: fixed;
+   bottom: 0;
+   color: aquamarine;
+   background-color: darkslategrey;
+   width: 100%;
+   text-align: center;
+   line-height: 4;
+   animation-name: my_name;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+  margin-top: 200px;
+ }
+ @keyframes my_name{
+   50%{
+     box-shadow: 3px 3px 38px rgba(21, 100, 48, 0.589);
+   }
+   100%{
+box-shadow: 3px 3px 38px rgb(87, 7, 31);
+   }
+ }
